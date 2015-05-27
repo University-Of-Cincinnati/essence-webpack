@@ -1,6 +1,4 @@
 import React from 'react/addons';
-
-import  {Row, Col, Grid} from 'react-bootstrap';
 import Essence from 'essence/src/js/components.js';
 
 var Btn = Essence.Btn;
@@ -24,25 +22,21 @@ var Brand = React.createClass({
   render() {
     return (
 			<div>
-			  <Row>
-			    <Col sm={4} xs={4}>
-			      <Card>
-			        <CardItem>
-			          <CardItemContent>
-			            <Icon name='action-info'/>
-			            <Text href='#' type='a'>Text on the left</Text>
-			          </CardItemContent>
-			        </CardItem>
-			      </Card>
-			      <Card>
-			        <CardItem>
-			          <CardItemContent>
-			            Content: can be used to include any component
-			          </CardItemContent>
-			        </CardItem>
-			      </Card>
-			    </Col>
-			  </Row>
+	      <Card>
+	        <CardItem>
+	          <CardItemContent>
+	            <Icon name='action-info'/>
+	            <Text href='#' type='a'>Text on the left</Text>
+	          </CardItemContent>
+	        </CardItem>
+	      </Card>
+	      <Card>
+	        <CardItem>
+	          <CardItemContent>
+	            Content: can be used to include any component
+	          </CardItemContent>
+	        </CardItem>
+	      </Card>
 			  <Btn>
 			    <BtnItem classes={'raised'} label='Label Default' rippleEffect={true}
 			      tooltip='Tooltip Default' type='default'/>
