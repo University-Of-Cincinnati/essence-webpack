@@ -1,0 +1,42 @@
+{
+  "name": "essence-webpack",
+  "version": "0.1.0",
+  "description": "Essence webpack starter",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --progress --colors --watch",
+    "build-deploy": "webpack",
+    "start": "webpack-dev-server --progress --colors",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/University-Of-Cincinnati/essence-webpack"
+  },
+  "license": "GPL3",
+  "homepage": "https://github.com/University-Of-Cincinnati/essence-webpack",
+  "bugs": {
+    "url": "https://github.com/University-Of-Cincinnati/essence-webpack/issues"
+  },
+  "dependencies": {
+    "essence": "git://github.com/PearlVentures/Essence",
+    "react": "^0.12.2"
+  },
+  "devDependencies": {
+    "autoprefixer-core": "^5.1.11",
+    "babel": "^4.6.6",
+    "babel-loader": "^4.0.0",
+    "css-loader": "^0.9.1",
+    "cssnext-loader": "^1.0.0",
+    "extract-text-webpack-plugin": "^0.3.8",
+    "file-loader": "^0.8.1",
+    "less": "^2.4.0",
+    "less-loader": "^2.0.0",
+    "react-a11y": "0.0.5",
+    "react-hot-loader": "^1.1.5",
+    "style-loader": "^0.8.3",
+    "url-loader": "^0.5.5",
+    "webpack": "^1.7.2",
+    "webpack-dev-server": "^1.7.0"
+  }
+}
