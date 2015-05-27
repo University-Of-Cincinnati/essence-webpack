@@ -19,8 +19,9 @@
     "url": "https://github.com/University-Of-Cincinnati/essence-webpack/issues"
   },
   "dependencies": {
-    "essence": "git://github.com/PearlVentures/Essence",
-    "react": "^0.12.2"
+    "essence": "git://github.com/University-Of-Cincinnati/Essence",
+    "react": "^0.12.2",
+    "react-bootstrap": "^0.15"
   },
   "devDependencies": {
     "autoprefixer-core": "^5.1.11",
@@ -32,7 +33,6 @@
     "file-loader": "^0.8.1",
     "less": "^2.4.0",
     "less-loader": "^2.0.0",
-    "react-a11y": "0.0.5",
     "react-hot-loader": "^1.1.5",
     "style-loader": "^0.8.3",
     "url-loader": "^0.5.5",

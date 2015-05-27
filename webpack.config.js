@@ -11,9 +11,6 @@ var defaultConfig = {
     publicPath: 'http://localhost:8080/build/',
     filename: "[name].js"
   },
-  externals: {
-    "react": "React"
-  },
   resolve: {
     extensions: ['', '.js', '.json', '.jsx']
   },

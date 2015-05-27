@@ -21,12 +21,6 @@ var Toast = Essence.Toast;
 var ToastItem = Essence.ToastItem;
 
 var Brand = React.createClass({
-	getInitialState: function() {
-    return {
-      disFooter: false,
-      isOpen: false
-    };
-  },
   render() {
     return (
 			<div>
@@ -107,11 +101,6 @@ var Brand = React.createClass({
 			  </Toast>
 			</div>
     );
-  },
-  handleToggle(isOpen) {
-  	this.setState({
-  		isOpen: isOpen
-  	});
   }
 });
 
